@@ -4,15 +4,15 @@ import p3 from "./3.jpg";
 import p4 from "./4.jpg";
 import p5 from "./5.jpg";
 import p6 from "./6.jpg";
-import p7 from "./7.jpg";
+import p7 from "./7jpg.jpg";
 import p8 from "./8.jpg";
 import p9 from "./9.jpg";
 import p10 from "./10.jpg";
-import p11 from "./11.jpg";
+import p11 from "./11.png";
 import p12 from "./12.jpg";
 import p13 from "./13.jpg";
 import p14 from "./14.jpg";
-import p15 from "./15.jpg";
+import p15 from "./15.pg.jpg";
 import p16 from "./16.jpg";
 import p17 from "./17.jpg";
 import p18 from "./18.jpg";
@@ -22,9 +22,10 @@ import logo from "./logo.png";
 import cart from "./cart.jpg";
 import hand_icon from "./hand_icon.webp";
 import arrow from "./arrow.png";
+import hero from "./hero.jpg";
 
 
-let all_product = [
+let data_product = [
     {
         id: 1,
         name: "Vintage Medi Skirt",
@@ -126,4 +127,4 @@ let all_product = [
 ]
 
 
-export default all_product;
+export default data_product;

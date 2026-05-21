@@ -1,7 +1,8 @@
 import React from 'react'
 import './Hero.css';
-import hand_icon from '../Assets/hand_icon.webp';
+
 import arrow from '../Assets/arrow.png';
+import hero from '../Assets/hero.jpg';
 
 
 
@@ -13,7 +14,6 @@ const Hero = () => {
                 <div>
                     <div className="hand-hand-icon">
                         <p>New</p>
-                        <img src={hand_icon} alt="" />
                     </div>
                     <p>Collections</p>
 
@@ -27,6 +27,8 @@ const Hero = () => {
             </div>
 
             <div className="hero-right">
+                <img src={hero} alt="" />
+
 
             </div>
 

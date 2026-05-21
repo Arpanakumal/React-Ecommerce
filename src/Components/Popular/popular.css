@@ -1,0 +1,107 @@
+
+.popular {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 80px;
+}
+
+.popular h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.popular hr {
+    width: 200px;
+    height: 4px;
+    background: red;
+    border: none;
+    border-radius: 10px;
+}
+
+
+.popular-item {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 45px;
+    width: 100%;
+}
+
+
+.item {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: 0.3s ease;
+}
+
+.item:hover {
+    transform: translateY(-5px);
+}
+
+
+.item img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    display: block;
+}
+
+.item p {
+    margin: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.item-price {
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
+
+.item-price-new {
+    color: #ff4141;
+    font-weight: 600;
+}
+
+.item-price-old {
+    text-decoration: line-through;
+    color: gray;
+}
+
+
+@media (max-width: 1024px) {
+    .popular-item {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .popular {
+        padding: 50px 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .popular-item {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .popular h1 {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 480px) {
+    .popular-item {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .popular {
+        padding: 40px 20px;
+    }
+
+    .popular h1 {
+        font-size: 28px;
+    }
+}
