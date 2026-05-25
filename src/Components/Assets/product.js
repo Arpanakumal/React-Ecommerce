@@ -23,6 +23,21 @@ import cart from "./cart.jpg";
 import hand_icon from "./hand_icon.webp";
 import arrow from "./arrow.png";
 import hero from "./hero.jpg";
+import insta from "./insta.webp";
+import facebook from "./facebook.webp";
+import whatsapp from "./whatsapp.webp";
+import pinterest from "./pinterest.webp";
+import p21 from "./21.jpg";
+import topsBanner from "./topsBannerjpg.jpg";
+import tops2 from "./tops2.jpg";
+import skirtBanner from "./skirtsBanner.png";
+import skirts2 from "./skirts2.jpg";
+import jacketBanner from "./jacketBanner.jpg";
+import jacket2 from "./jacket2.jpg";
+import hatBanner from "./hatsBanner.jpg";
+import dropdown from "./dropdown.png";
+
+
 
 
 let data_product = [
@@ -54,7 +69,7 @@ let data_product = [
     {
         id: 4,
         name: "Polyster Off-Shoulder",
-        category: "jackets",
+        category: "tops",
         image: p7,
         new_price: 2000,
         old_price: 2200
@@ -94,7 +109,7 @@ let data_product = [
     {
         id: 9,
         name: "Satin Blouse",
-        category: "skirts",
+        category: "tops",
         image: p14,
         new_price: 2000,
         old_price: 2200
@@ -103,7 +118,7 @@ let data_product = [
         id: 10,
         name: "Checked Shirt",
         category: "tops",
-        image: p3,
+        image: p15,
         new_price: 2000,
         old_price: 2200
     },
