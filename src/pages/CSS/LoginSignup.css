@@ -1,0 +1,142 @@
+
+.loginSignup {
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(230, 199, 218);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 500px;
+    background: white;
+    padding: 40px 50px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.login-container h1 {
+    margin-bottom: 30px;
+    text-align: center;
+    color: #171717;
+    font-size: 36px;
+}
+
+.login-fileds {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.login-fileds input {
+    height: 60px;
+    width: 100%;
+    padding: 0 20px;
+    border: 1px solid #c9c9c9;
+    outline: none;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #5c5c5c;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+.login-fileds input:focus {
+    border-color:  rgb(247, 135, 204);
+    box-shadow: 0 0 5px rgba(255, 65, 65, 0.4);
+}
+
+.login-container button {
+    width: 100%;
+    height: 60px;
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background:  rgb(246, 119, 197);
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-container button:hover {
+    background: #ab1c6b;
+}
+
+.loginSignup-login {
+    margin-top: 20px;
+    text-align: center;
+    color: #5c5c5c;
+    font-size: 16px;
+}
+
+.loginSignup-login span {
+    color: #ff4141;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.loginSignup-agree {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 25px;
+    color: #5c5c5c;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.loginSignup-agree input {
+    margin-top: 4px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+    .login-container {
+        padding: 30px;
+    }
+
+    .login-container h1 {
+        font-size: 30px;
+    }
+
+    .login-container button {
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .login-container {
+        padding: 25px 20px;
+    }
+
+    .login-container h1 {
+        font-size: 26px;
+    }
+
+    .login-fileds input {
+        height: 55px;
+        font-size: 15px;
+    }
+
+    .login-container button {
+        height: 55px;
+        font-size: 17px;
+    }
+
+    .loginSignup-login {
+        font-size: 14px;
+    }
+
+    .loginSignup-agree {
+        font-size: 13px;
+    }
+}

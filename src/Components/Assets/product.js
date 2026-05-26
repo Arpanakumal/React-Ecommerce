@@ -36,7 +36,8 @@ import jacketBanner from "./jacketBanner.jpg";
 import jacket2 from "./jacket2.jpg";
 import hatBanner from "./hatsBanner.jpg";
 import dropdown from "./dropdown.png";
-
+import star from "./star.png"
+import starDull from "./starGrey.png"
 
 
 

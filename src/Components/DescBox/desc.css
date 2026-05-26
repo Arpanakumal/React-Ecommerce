@@ -1,0 +1,68 @@
+
+.descBox {
+    margin: 40px 0;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.desc-nav {
+    display: flex;
+    gap: 20px;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 20px;
+}
+
+.desc-navBox {
+    padding: 12px 20px;
+    cursor: pointer;
+    font-weight: 600;
+    color: #333;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s;
+}
+
+.desc-navBox:hover {
+    color:  #e474b2;
+}
+
+.desc-navBox.fade {
+    color: #888;
+    font-weight: 500;
+}
+
+.desc-navBox.fade:hover {
+    color:  #e474b2;
+}
+
+
+.desc-navBox.active {
+    border-bottom: 3px solid #e474b2;
+    color: #e474b2;
+}
+
+
+.descBox-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.descBox-desc p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #555;
+}
+
+
+@media (max-width: 768px) {
+    .desc-nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .desc-navBox {
+        padding: 10px;
+    }
+}

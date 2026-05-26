@@ -13,7 +13,7 @@ const ShopCategory = (props) => {
 
     return (
         <div className='shop-category'>
-            <img src={props.banner} alt="" />
+            <img  src={props.banner} alt="" />
             <div className="shopCategory-indexSort">
                 <p>
                     <span>Showing 1-9</span>out of 15 products
@@ -35,10 +35,14 @@ const ShopCategory = (props) => {
                             old_price={item.old_price}
                         />
 
-                    }else{
+                    } else {
                         return null;
                     }
                 })}
+            </div>
+
+            <div className="shopCategory-loadmore">
+                Explore More
             </div>
 
 
